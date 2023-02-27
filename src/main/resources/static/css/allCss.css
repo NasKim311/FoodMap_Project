@@ -4,6 +4,14 @@ body {
 .logo-aTag {
   text-decoration: none;
 }
+.logo_box {
+  color: #fefefe;
+  text-align: left;
+  font-weight: bold;
+  font-size: 17px;
+  padding-top: 10px;
+  padding-left: 10px;
+}
 ::selection {
   background: #39f;
   color: #fff;
