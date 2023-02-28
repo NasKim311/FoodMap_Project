@@ -1,10 +1,11 @@
+html,
 body {
   background-color: #0581bb;
   background: linear-gradient(180deg, #0584bb 35%, #046795 100%);
   font-size: 17px;
   margin: 0%;
-  /* height: 100vh;
-  width: 100vw; */
+  height: 100%;
+  width: 100%;
 }
 nav {
   margin: 10px;
@@ -12,16 +13,14 @@ nav {
 .main-cover {
   background-color: #0581bb;
   background: linear-gradient(180deg, #0584bb 35%, #046795 100%);
-  height: auto;
   padding-bottom: 170px;
   box-sizing: border-box;
-  width: 100%;
   text-align: center;
   color: #fefefe;
   padding-top: constant(safe-area-inset-top);
   padding-top: env(safe-area-inset-top);
-  height: 100vh;
-  width: 100vw;
+  height: 100%;
+  width: 100%;
 }
 /* nav {
   position: absolute !important;
