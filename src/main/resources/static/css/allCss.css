@@ -1,10 +1,21 @@
 body {
   background-color: #39f;
+  font-size: 17px;
 }
+
+/* nav {
+  position: absolute !important;
+  z-index: 9999;
+  width: 100%;
+  box-sizing: border-box;
+  padding-top: constant(safe-area-inset-top);
+  padding-top: env(safe-area-inset-top);
+  z-index: 9998;
+} */
 .logo-aTag {
   text-decoration: none;
 }
-.logo_box {
+.logo-box {
   color: #fefefe;
   text-align: left;
   font-weight: bold;
