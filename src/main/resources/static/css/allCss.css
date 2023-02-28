@@ -1,8 +1,20 @@
 body {
-  background-color: #39f;
+  background-color: #0581bb;
+  /* background: linear-gradient(180deg, #0584bb 35%, #046795 100%); */
   font-size: 17px;
 }
-
+.main-cover {
+  background-color: #0581bb;
+  background: linear-gradient(180deg, #0584bb 35%, #046795 100%);
+  height: auto;
+  padding-bottom: 170px;
+  box-sizing: border-box;
+  width: 100%;
+  text-align: center;
+  color: #fefefe;
+  padding-top: constant(safe-area-inset-top);
+  padding-top: env(safe-area-inset-top);
+}
 /* nav {
   position: absolute !important;
   z-index: 9999;
@@ -22,6 +34,10 @@ body {
   font-size: 17px;
   padding-top: 10px;
   padding-left: 10px;
+}
+.title-box {
+  font-size: 42px;
+  line-height: 50px;
 }
 ::selection {
   background: #39f;
