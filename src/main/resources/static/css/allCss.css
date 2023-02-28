@@ -17,8 +17,8 @@ nav {
   box-sizing: border-box;
   text-align: center;
   color: #fefefe;
-  padding-top: constant(safe-area-inset-top);
-  padding-top: env(safe-area-inset-top);
+  /* padding-top: constant(safe-area-inset-top);
+  padding-top: env(safe-area-inset-top); */
   height: 100%;
   width: 100%;
 }
