@@ -51,6 +51,10 @@ nav {
   font-size: 42px;
   line-height: 50px;
 }
+.select-box {
+  display: flex;
+  flex-wrap: wrap;
+}
 ::selection {
   background: #39f;
   color: #fff;
