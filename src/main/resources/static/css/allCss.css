@@ -60,3 +60,7 @@ nav {
   color: #fff;
   text-shadow: none;
 }
+
+.border-radius {
+  border-radius: 12px;
+}
